@@ -1,4 +1,5 @@
-# BRIEFING — Portfólio Leonardo Brandão
+# BRIEFING — Portfólio de Pedro Jesus
+ : TODO 
 
 > Documento de referência do projeto. Define stack, design system e plano de execução.
 > As regras visuais detalhadas vivem na skill `.claude/skills/design-system/`.

@@ -8,7 +8,9 @@ export type Experience = {
   stack: string[];
 };
 
-// Dados reais do perfil profissional (LinkedIn / Profile.pdf)
+
+// Dados reais do perfil profissional (LinkedIn / Profile.pdf) : TODO 
+    
 export const experiences: Experience[] = [
   {
     company: "Grupo Vilarejo",
