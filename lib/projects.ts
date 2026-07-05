@@ -11,19 +11,19 @@ export type Project = {
   domain: "fintech" | "produto" | "ia" | "devtool" | "automacao";
 };
 
-// Dados reais extraídos dos repositórios de github.com/LeonardoBrandaoM
+// Dados reais extraídos dos repositórios de github.com/pot8todev
 export const projects: Project[] = [
   {
   name: "SGA",
   title: "Sistema de Gestão Empresarial",
   blurb:
-    "Plataforma de gestão de equipes e clientes com Kanban, CRM integrado e dashboards de desempenho.",
+    "Sistema de gestão para organização de times com Kanban drag-and-drop, calendário integrado e dashboard de indicadores.",
   description:
-    "Sistema web desenvolvido para otimizar a organização de equipes, acompanhamento de tarefas e gestão comercial. Integra Kanban com drag-and-drop, calendário de atividades, CRM para gerenciamento de leads e clientes, além de dashboards analíticos para monitoramento de produtividade e resultados.",
+    "Sistema de Gestão para organização de times com Kanban drag-and-drop, calendário integrado, histórico de clientes e abordagens de marketing com logs de reabertura e dashboard de indicadores por time e indivíduo.",
   highlights: [
-    "Kanban interativo com drag-and-drop e acompanhamento de tarefas",
-    "CRM com histórico de clientes, leads e estratégias de marketing",
-    "Dashboards de indicadores por equipe e colaborador",
+    "Sistema de gestão de equipes com Kanban drag-and-drop, calendário integrado e acompanhamento de tarefas",
+    "Implementação de CRM para gestão de leads, histórico de clientes e estratégias de marketing orientadas por dados",
+    "Desenvolvimento de dashboards de indicadores por equipe e colaborador",
   ],
   tags: ["React", "TypeScript", "Node.js", "CRM", "Kanban"],
   repo: null,
@@ -35,13 +35,13 @@ export const projects: Project[] = [
   name: "SOS Solutions",
   title: "Orquestração e Monitoramento de Bots",
   blurb:
-    "Plataforma para gerenciamento de bots de automação web com monitoramento em tempo real e controle operacional centralizado.",
+    "Plataforma para orquestração e monitoramento de bots de automação web com dashboard em tempo real e controle operacional.",
   description:
-    "Sistema corporativo desenvolvido para orquestrar, monitorar e gerenciar bots de automação web em larga escala. Possui dashboard em tempo real, autenticação MFA, gerenciamento de sessões persistentes e integração com sistemas legados para extração e processamento automatizado de dados.",
+    "Plataforma para orquestração e monitoramento de bots de automação web com dashboard em tempo real para controle de execução, autenticação MFA e gestão de sessões persistentes.",
   highlights: [
-    "Monitoramento e orquestração centralizada de bots de automação",
-    "Dashboard em tempo real com autenticação MFA e gestão de sessões",
-    "Integração com sistemas legados para coleta e processamento de dados",
+    "Plataforma para monitoramento e orquestração de bots de automação web",
+    "Dashboard em tempo real com autenticação MFA, gerenciamento de sessões e controle operacional",
+    "Integração com sistemas legados para extração e processamento automatizado de dados",
   ],
   tags: ["React", "TypeScript", "Node.js", "Automação", "MFA"],
   repo: null,
@@ -53,13 +53,13 @@ export const projects: Project[] = [
   name: "Web Scraping",
   title: "Comparador de Preços para Cartas Colecionáveis",
   blurb:
-    "Ferramenta de coleta e análise de dados que compara preços em centenas de lojas e identifica oportunidades de compra.",
+    "Ferramenta automatizada para coleta, processamento e análise de dados da web para comparar preços em centenas de lojas.",
   description:
-    "Projeto pessoal focado em automação de coleta e processamento de dados da web. A aplicação extrai informações de múltiplas fontes utilizando web scraping, Selenium e OCR, consolidando dados de preços de cartas colecionáveis para auxiliar na tomada de decisão e identificação de oportunidades de mercado.",
+    "Ferramenta automatizada para coleta, processamento e análise de dados da web, desenvolvida para comparar preços de cartas colecionáveis em centenas de lojas e identificar as melhores oportunidades de compra.",
   highlights: [
-    "Coleta automatizada de dados em centenas de lojas online",
+    "Automação da coleta e tratamento de dados de múltiplas fontes",
     "Extração de informações utilizando Selenium e OCR",
-    "Processamento e consolidação de dados para análise comparativa de preços",
+    "Organização e processamento de dados para apoio à tomada de decisão",
   ],
   tags: ["Python", "Selenium", "OCR", "Web Scraping", "Automação"],
   repo: null,

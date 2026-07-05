@@ -8,15 +8,14 @@
 
 ## 1. Objetivo & contexto
 
-Portfólio pessoal de **Leonardo Brandão** (20 anos, Rio das Ostras/RJ) para se candidatar a
+Portfólio pessoal de **Pedro Henrique Jesus** (25 anos, Rio das Ostras/RJ) para se candidatar a
 **vagas dev júnior / estágio no Brasil**. Conteúdo em **português**.
 
-- **Identidade:** Desenvolvedor de IA + full-stack, com base teórica forte (formação em IA,
-  Ciência da Computação na UFF, Iniciação Científica em redes neurais).
-- **Posicionamento:** generalista equilibrado — IA generativa, full-stack, fintech/Open Finance
-  e entrega de produto, todos com peso parecido.
-- **Diferencial narrativo:** unir teoria e prática. O hero de rede neural conversa diretamente
-  com a IC em BranchNet (arquiteturas de redes neurais não convencionais).
+- **Identidade:** Desenvolvedor Web Full Stack, com experiência em React, Node.js, TypeScript
+  e automação de processos.
+- **Posicionamento:** foco em aplicações web escaláveis, APIs REST, automação e qualidade de código.
+- **Diferencial narrativo:** unir teoria e prática. Experiência em estágio na Tesch Solutions
+  com metodologias ágeis (Scrum e Kanban).
 
 ---
 
@@ -69,17 +68,16 @@ Acento travado na página inteira (Color Consistency Lock). Sombras tingidas do 
 
 ## 4. Estrutura das seções (ordem)
 
-1. **Nav** — fixa, 1 linha, ≤ 72px. Logo (monograma "LB") + âncoras + CTA "Contato".
+1. **Nav** — fixa, 1 linha, ≤ 72px. Logo (monograma) + âncoras + CTA "Contato".
 2. **Hero** — fundo `NeuralHero` (rede neural/partículas em r3f). Máx 4 elementos de texto:
-   nome, papel ("Desenvolvedor de IA e software"), subtext ≤ 20 palavras, CTAs ("Ver projetos" + "GitHub").
+   nome, papel ("Desenvolvedor Web Full Stack"), subtext ≤ 20 palavras, CTAs ("Ver projetos" + "GitHub").
    `min-h-[100dvh]`, `pt-24` máx, CTA visível sem scroll.
-3. **Sobre** — bio real e curta: 20 anos, une teoria e prática, IC em BranchNet, MBA em curso. Stack vertical.
-4. **Tecnologias** — logos reais agrupados por categoria (Linguagens / IA & Dados / Backend / Frontend & Web).
+3. **Sobre** — bio real e curta: 25 anos, experiência em estágio na Tesch Solutions, formação em CC na UFF e Física na UERJ. Stack vertical.
+4. **Tecnologias** — logos reais agrupados por categoria (Linguagens / Backend & Infra / Frontend & Web / Ferramentas).
    Sem 3 cards iguais; grid agrupado com hairlines esparsas.
-5. **Projetos** — generalista, layout variado (sem zigzag 3x, sem cards iguais). Destaque OpenSight + grid assimétrico:
-   ReportManager, FelingOmeter, PluggyAPI DevKit, projeto-estagio. Descrições reais do GitHub.
-6. **Experiência** — Grupo Vilarejo (dev IA + gestor) e Outlier (AI Trainer/Python). Timeline limpa, conquistas reais.
-7. **Contato** — uma intenção de CTA. Email `leonardobmf73@gmail.com`, GitHub, LinkedIn.
+5. **Projetos** — generalista, layout variado (sem zigzag 3x, sem cards iguais). SGA, SOS Solutions, Web Scraping. Descrições reais do GitHub.
+6. **Experiência** — Tesch Solutions (Estagiário de Desenvolvimento Web). Timeline limpa, conquistas reais.
+7. **Contato** — uma intenção de CTA. Email `pedrohjesus234@gmail.com`, GitHub, LinkedIn.
 8. **Footer** — minimal, sem version-stamp/locale-strip.
 
 ---

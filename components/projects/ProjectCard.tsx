@@ -129,21 +129,19 @@ export function ProjectCard({
         </div>
       </div>
 
-      {featured && (
-        <div className="relative mt-8 border-t border-border pt-7 lg:mt-0 lg:w-2/5 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
-          <p className="font-mono text-xs uppercase tracking-[0.14em] text-faint">
-            Destaques
-          </p>
-          <ul className="mt-4 space-y-3">
-            {project.highlights.map((h) => (
-              <li key={h} className="flex gap-3 text-sm leading-relaxed text-muted">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
-                {h}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div className={`relative mt-8 border-t border-border pt-7 ${featured ? "lg:mt-0 lg:w-2/5 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0" : ""}`}>
+        <p className="font-mono text-xs uppercase tracking-[0.14em] text-faint">
+          Destaques
+        </p>
+        <ul className={`mt-4 space-y-3 ${featured ? "" : "sm:grid sm:grid-cols-2 sm:gap-x-6 sm:space-y-0"}`}>
+          {project.highlights.map((h) => (
+            <li key={h} className="flex gap-3 text-sm leading-relaxed text-muted">
+              <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+              {h}
+            </li>
+          ))}
+        </ul>
+      </div>
     </article>
   );
 }

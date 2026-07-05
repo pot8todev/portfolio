@@ -22,7 +22,7 @@ const channels = [
   },
   {
     label: "LinkedIn",
-    value: "Leonardo Brandão",
+    value: profile.name,
     href: profile.linkedin,
     Icon: LinkedinLogo,
   },
@@ -51,13 +51,6 @@ export function Contact() {
                 Respondo rápido, manda mensagem.
               </p>
 
-              <a
-                href={`mailto:${profile.email}`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-bg transition-all hover:-translate-y-0.5 hover:bg-accent-strong active:scale-[0.98]"
-              >
-                <EnvelopeSimple size={18} weight="bold" />
-                {profile.email}
-              </a>
 
               <div className="mt-12 grid gap-px border-t border-border sm:grid-cols-3">
                 {channels.map(({ label, value, href, Icon }) => (

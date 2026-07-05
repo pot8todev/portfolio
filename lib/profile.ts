@@ -1,17 +1,17 @@
 export const profile = {
-  name: "Pedro Henrique de Jesus",
-  role: "Desenvolvedor Web e software",
+  name: "Pedro Henrique Jesus",
+  role: "Desenvolvedor Web Full Stack",
   age: 25,
   location: "Rio das Ostras, RJ",
   email: "pedrohjesus234@gmail.com",
   github: "https://github.com/pot8todev",
-  githubUser: "Jsuis_dev",
+  githubUser: "pot8todev",
   linkedin: "https://www.linkedin.com/in/pedro-h-jesus/",
   // Subtext do hero: <= 20 palavras
   tagline:
-    "Desenvolvedor de aplicacoes Web escalaveis, com sistemas full-stack. Unindo teoria e prática, do protótipo à produção.",
+    "Desenvolvedor Web com experiência em aplicações web e APIs REST com React, Node.js e TypeScript. Automação, escalabilidade e código de qualidade.",
   about: [
-    "Tenho 25 anos e desenvolvo software unindo teoria e prática. Atuo com desenvolvimento de ferramentas web intuitivas e que facilitem o dia a dia.",
+    "Desenvolvedor Web com experiência em estágio na Tesch Solutions, atuando no desenvolvimento de aplicações web e APIs REST com React, Node.js e TypeScript. Experiência com automação de processos, integrações, arquitetura escalável e metodologias ágeis.",
     "",
   ],
   // Stack agrupada por categoria. slug = Simple Icons (cdn.simpleicons.org)
@@ -21,9 +21,7 @@ export const profile = {
       items: [
         { name: "Python", slug: "python" },
         { name: "TypeScript", slug: "typescript" },
-        { name: "C", slug: "c" },
         { name: "SQL", slug: "postgresql" },
-        { name: "Lua", slug: "lua" },
         { name: "JavaScript", slug: "javascript" },
       ],
     },
@@ -31,8 +29,8 @@ export const profile = {
       category: "Backend & Infra",
       items: [
         { name: "Node.js", slug: "nodedotjs" },
-        { name: "Docker", slug: "docker" },
-        { name: "express", slug: "express" },
+        { name: "APIs REST", slug: "fastapi" },
+        { name: "Git", slug: "git" },
       ],
     },
     {
@@ -42,21 +40,29 @@ export const profile = {
         { name: "Next.js", slug: "nextdotjs" },
       ],
     },
+    {
+      category: "Ferramentas",
+      items: [
+        { name: "GitHub", slug: "github" },
+        { name: "Linux", slug: "linux" },
+        { name: "Docker", slug: "docker" },
+      ],
+    },
   ],
   education: [
     {
       school: "Universidade Federal Fluminense (UFF)",
       degree: "Bacharelado em Ciência da Computação",
-      period: "2024 - 20230",
-      note: "Iniciação Científica em offloading adaptativo com redes neurais não convencionais (BranchNet).",
+      period: "2024 - 2031",
+      note: "Previsão de conclusão em 2031.",
     },
     {
-      school: "Universidade Federal do Rio de Janeiro (UERJ)",
-      degree: "Licenciatura em Fisica",
-      period: "2020 - 2022",
-      note: "Formação focada na didatica da fisica, o uso de estatistica e como podemos usa-la para entendermos o espaco que vivemos",
+      school: "Universidade do Estado do Rio de Janeiro (UERJ)",
+      degree: "Licenciatura em Física",
+      period: "2020 - 2021",
+      note: "Formação focada na didática da física e no uso de estatística.",
     },
   ],
   certifications: [],
-  languages: ["Português (nativo)", "Inglês (avançado), ","Frances (basico) "],
+  languages: ["Português (nativo)", "Inglês (avançado)", "Espanhol (básico)", "Francês (básico)"],
 } as const;

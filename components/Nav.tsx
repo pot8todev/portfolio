@@ -21,10 +21,10 @@ export function Nav() {
           className="group flex items-center gap-2.5 font-mono text-sm tracking-wide"
         >
           <span className="grid size-8 place-items-center rounded-lg border border-border-strong bg-surface text-accent transition-colors group-hover:border-accent">
-            LB
+            PHJ
           </span>
           <span className="hidden text-muted transition-colors group-hover:text-text sm:inline">
-            leonardo brandão
+            pedro henrique jesus
           </span>
         </a>
 

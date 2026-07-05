@@ -1,9 +1,9 @@
 ---
 name: design-system
-description: Regras visuais travadas do portfólio do Leonardo (cores, espaçamento, tipografia, tom das animações). Aplicar em TODO código de UI deste projeto para garantir consistência. Use ao criar ou editar qualquer componente, seção, estilo ou animação.
+description: Regras visuais travadas do portfólio do Pedro (cores, espaçamento, tipografia, tom das animações). Aplicar em TODO código de UI deste projeto para garantir consistência. Use ao criar ou editar qualquer componente, seção, estilo ou animação.
 ---
 
-# Design System — Portfólio Leonardo Brandão
+# Design System — Portfólio Pedro Henrique Jesus
 
 Regras NÃO-negociáveis para manter consistência visual. Em conflito, estas regras vencem
 preferência estética pontual. Complementa a `taste-skill` global (anti-slop).

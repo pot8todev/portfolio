@@ -5,26 +5,25 @@ import "./globals.css";
 import { profile } from "@/lib/profile";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://leonardobrandao.dev"),
-  title: `${profile.name} | Desenvolvedor de IA e software`,
+  metadataBase: new URL("https://pot8todev.com"),
+  title: `${profile.name} | Desenvolvedor Web Full Stack`,
   description:
-    "Portfólio de Leonardo Brandão. Desenvolvedor de IA generativa, automações e sistemas full-stack. Python, Go, LangChain, Open Finance.",
+    "Portfólio de Pedro Henrique Jesus. Desenvolvedor Web Full Stack com experiência em React, Node.js, TypeScript e automação de processos.",
   keywords: [
-    "Leonardo Brandão",
-    "desenvolvedor",
-    "inteligência artificial",
-    "IA generativa",
+    "Pedro Henrique Jesus",
+    "desenvolvedor web",
     "full-stack",
+    "React",
+    "Node.js",
+    "TypeScript",
     "Python",
-    "Go",
-    "LangChain",
-    "Open Finance",
+    "Tesch Solutions",
   ],
   authors: [{ name: profile.name, url: profile.github }],
   openGraph: {
-    title: `${profile.name} | Desenvolvedor de IA e software`,
+    title: `${profile.name} | Desenvolvedor Web Full Stack`,
     description:
-      "IA generativa, automações e sistemas full-stack, do protótipo à produção.",
+      "Aplicações web e APIs REST com React, Node.js e TypeScript, do protótipo à produção.",
     type: "website",
     locale: "pt_BR",
   },

@@ -1,6 +1,6 @@
-# Portfólio · Leonardo Brandão
+# Portfólio · Pedro Henrique Jesus
 
-Portfólio pessoal de Leonardo Brandão, desenvolvedor de IA e software. Tema escuro, hero com
+Portfólio pessoal de Pedro Henrique Jesus, desenvolvedor web full stack. Tema escuro, hero com
 rede neural interativa (WebGL), animações fluidas e conteúdo puxado de projetos e experiências reais.
 
 ## Stack

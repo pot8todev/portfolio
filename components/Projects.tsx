@@ -3,8 +3,7 @@ import { Reveal } from "./ui/Reveal";
 import { ProjectCard } from "./projects/ProjectCard";
 
 export function Projects() {
-  const featured = projects.find((p) => p.featured);
-  const rest = projects.filter((p) => !p.featured);
+  const [featured, ...rest] = projects;
 
   return (
     <section id="projetos" className="scroll-mt-20 px-6 py-24 md:py-32">
