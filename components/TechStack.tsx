@@ -31,7 +31,7 @@ export function TechStack() {
                       key={item.name}
                       name={item.name}
                       slug={item.slug}
-                      noIcon={"noIcon" in item ? item.noIcon : false}
+                      noIcon={"noIcon" in item ? Boolean(item.noIcon) : false}
                     />
                   ))}
                 </div>
